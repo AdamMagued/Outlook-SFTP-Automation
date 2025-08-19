@@ -46,7 +46,7 @@ public class class1 {
                 Variant unreadVariant = Dispatch.get(mailItem, "UnRead");
                 boolean isUnread = unreadVariant.getBoolean();
 
-                if (isUnread && subject.contains("SFTP-10.99.161.41")) {
+                if (isUnread && subject.contains("SFTP-" + DEFAULT_HOST)) {
                     System.out.println("Found matching email: " + subject);
 
                     // Get plain-text body only
@@ -179,6 +179,7 @@ public class class1 {
         }
     }
 }
+
 
 
 
