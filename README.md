@@ -1,4 +1,6 @@
 # Outlook-SFTP-Automation
+
+## TO RUN:
 Replace String DEFAULT_HOST and  int DEFAULT_PORT with your LINUX SERVER IP and Port number
 To run the code start class1.launch file
 
